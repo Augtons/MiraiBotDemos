@@ -63,7 +63,7 @@ Java：
 ```java
 Bot bot = BotFactory.INSTANCE.newBot(123456789L, "password", config -> {
     config.fileBasedDeviceInfo(); // 从文件获取设备信息
-    config.setProtocol(BotConfiguration.MiraiProtocol.IPAD);
+    config.setProtocol(BotConfiguration.MiraiProtocol.IPAD); // 选择IPAD协议
 });
 ```
 
